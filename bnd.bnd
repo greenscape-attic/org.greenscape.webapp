@@ -1,0 +1,17 @@
+-wab: WebContent/
+-wablib: WebContent/WEB-INF/lib/primefaces-3.5.jar,WebContent/WEB-INF/lib/prettyfaces-jsf2-3.3.3.jar
+Private-Package: org.greenscape.webapp.impl
+Bundle-Version: 0.0.1
+Bundle-Name: org.greenscape.webapp
+Web-ContextPath: /greenscape
+Import-Package: org.apache.log.*;resolution:=optional,\
+	org.apache.avalon.*;resolution:=optional,\
+	com.ocpsoft.shade.*;resolution:=optional,\
+	org.slf4j.*;resolution:=optional,\
+	org.atmosphere.*;resolution:=optional,\
+	org.apache.poi.*;resolution:=optional,\
+	org.apache.commons.*;resolution:=optional,\
+	com.sun.syndication.*;resolution:=optional,\
+	com.lowagie.*;resolution:=optional,\
+	*
+-buildpath: osgi.core;version=4.2.0
