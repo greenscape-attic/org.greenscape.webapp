@@ -16,3 +16,4 @@ Import-Package: org.apache.log.*;resolution:=optional,\
 	*
 -buildpath: osgi.core;version=4.2.0
 -dsannotations: *
+Export-Package: org.greenscape.webapp
